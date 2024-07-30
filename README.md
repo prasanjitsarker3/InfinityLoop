@@ -1,6 +1,6 @@
-# Multi-Stage-Client
+# InfinityLoop
 
-The Multi-Stage Mars application collects data through a three-step process, stores it in a database, and then presents it all in a table for easy viewing.
+The Infinity Loop is a software company website that showcases the company's projects, services offered, and job openings. The website provides detailed information about the types of services they provide and shares current job opportunities.
 
 ## Installation
 
@@ -53,5 +53,4 @@ npm run dev
 
 # Live Link
 
-[Live Application] (https://multi-stage.vercel.app)
-[Github] (https://github.com/prasanjitsarker3/Multi-Stage-Client)
+[Live Application] https://infinite-loop.vercel.app
