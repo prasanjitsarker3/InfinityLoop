@@ -50,25 +50,27 @@ const HomeBanner = () => {
                 from web and mobile app development to cloud solutions and
                 beyond.
               </p>
-              <Link href="/service">
-                <motion.button
-                  className="flex items-center gap-3 text-white md:py-3 py-2 px-5 rounded-md"
-                  animate={{
-                    background: [
-                      "linear-gradient(to right, #0a6fd9, #0edcbc)",
-                      "linear-gradient(to right, #0edcbc, #0a6fd9)",
-                      "linear-gradient(to right, #0a6fd9, #0edcbc)",
-                    ],
-                  }}
-                  transition={{
-                    duration: 5,
-                    ease: "linear",
-                    repeat: Infinity,
-                  }}
-                >
-                  Explore Service <ArrowRight size={20} />
-                </motion.button>
-              </Link>
+              <div>
+                <Link href="/service">
+                  <motion.button
+                    className="flex items-center gap-3 text-white md:py-3 py-2 px-5 rounded-md"
+                    animate={{
+                      background: [
+                        "linear-gradient(to right, #0a6fd9, #0edcbc)",
+                        "linear-gradient(to right, #0edcbc, #0a6fd9)",
+                        "linear-gradient(to right, #0a6fd9, #0edcbc)",
+                      ],
+                    }}
+                    transition={{
+                      duration: 5,
+                      ease: "linear",
+                      repeat: Infinity,
+                    }}
+                  >
+                    Explore Service <ArrowRight size={20} />
+                  </motion.button>
+                </Link>
+              </div>
             </div>
           </motion.div>
           <motion.div
